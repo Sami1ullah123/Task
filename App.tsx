@@ -11,7 +11,7 @@ import Svg, {Circle} from 'react-native-svg';
 
 import {Platform, PermissionsAndroid} from 'react-native';
 
-const DrawingScreen = () => {
+const App = () => {
   const [path, setPath] = useState([]);
   const [isCircle, setIsCircle] = useState(false);
   const svgRef = useRef();
@@ -125,4 +125,4 @@ const DrawingScreen = () => {
   );
 };
 
-export default DrawingScreen;
+export default App;
